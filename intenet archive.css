@@ -59,7 +59,7 @@ padding: 10px;}
 .pages{
     display: flex;
   justify-content: space-around;
-  width: 45%;
+  width: 43%;
   font-size: 14px;
   font-family:sans-serif;
 }
@@ -67,6 +67,7 @@ padding: 10px;}
 .nav2,.pages a{
     color: rgba(219, 219, 219, 0.89);
     text-decoration: none;
+    font-size: 12px;
 }
 
 .nav2,.pages a:hover{color: white;}
