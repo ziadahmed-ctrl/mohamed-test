@@ -1,0 +1,232 @@
+body{margin: 0px;background-color: rgb(241, 241, 241);}
+nav{ background-color: rgb(0, 0, 0);
+    height: 38px;
+    color:rgba(219, 219, 219, 0.89);
+    font-size: 24px;
+ display: flex;
+ align-items: center;
+ justify-content: right;
+ font-family: 'Amiri', serif;
+ font-weight:lighter;
+ letter-spacing: 1px;
+ padding: 8px;}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  font-family:sans-serif;
+font-size: 16px;}
+
+.nav,.links a{
+    color: rgba(219, 219, 219, 0.89);
+    text-decoration:none;
+}
+
+.nav,.links a:hover{color: white;}
+.nav,.links li{
+    list-style: none;
+}
+
+.log{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    float: left;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.p1{
+    height: 50px;
+}
+
+.nav2{background-color: rgb(37, 37, 37);
+    position: center;
+    font-size: 12px;
+height: 18px;
+color:rgba(219, 219, 219, 0.89);
+    font-size: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Amiri', serif;;
+font-weight:lighter;
+letter-spacing: 1px;
+padding: 10px;}
+
+.pages{
+    display: flex;
+  justify-content: space-around;
+  width: 45%;
+  font-size: 14px;
+  font-family:sans-serif;
+}
+
+.nav2,.pages a{
+    color: rgba(219, 219, 219, 0.89);
+    text-decoration: none;
+}
+
+.nav2,.pages a:hover{color: white;}
+.nav2,.pages li{
+    list-style: none;
+}
+
+.nav3{background-color: rgba(87, 87, 87, 0.808);
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 190px;}
+.nr3{list-style: none;
+justify-content: space-around;
+width: 100%;
+justify-content: space-between;
+width: 100%;
+height: 100%;}
+
+.n3{align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nn3{
+    border: solid 0px rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fff4e7;
+    color: rgb(0, 0, 0);
+    width: 600px;
+    height: 50px;
+    font-weight: 200;
+    align-items: center;
+    bottom: 0;
+    padding: 5px;
+    box-align: center;
+}
+
+.nav4{background-color: rgb(255, 255, 255);
+    color: black;
+ width: 1200px;
+ height: 350px;
+ overflow: auto;
+ display: flex;
+ align-items: center;
+ justify-content: right;
+ font-family: 'Amiri', serif;
+ font-weight:lighter;
+ letter-spacing: 1px;
+ padding: 8px;
+}
+.we{height: 200px;}
+.m{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family:sans-serif;
+  font-size: 16px;
+  list-style: none;
+}
+.text{width: 600px; font-size: 24px; top: 50px; }
+.h{font-weight: bolder; font-size: 28px;}
+.textn{width: 220px;}
+
+.more{text-decoration: none; color: rgb(29, 29, 250);}
+.more:hover{text-decoration: underline;}
+.nserch{width: 350px;}
+.ns{text-decoration: none; color: rgb(29, 29, 250); font-size: 12px;}
+.ns:hover{text-decoration: underline;}
+h1{font-size: 27px;
+    font-family:sans-serif;
+font-weight: 100;}
+
+.img{height: 50px;}
+
+.div1{border: solid 0px rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    background-color: #000000a2;
+    color: white;
+    width: 100%;
+    height: 10px;
+    font-weight: 200;
+    bottom: 0;
+    padding: 5px;
+    box-align: center;}
+.div1:hover{background-color: rgb(27, 27, 27);}    
+
+.books{display: flex;
+justify-content: space-around;
+width: 55%;
+color: white;
+font-weight:lighter;
+letter-spacing: 1px;
+padding: 5px;}
+
+.books a{text-decoration: none; color: white;
+font-family: sans-serif;}
+
+.book1{
+    border: solid 0px white;
+    background-color:  rgba(87, 87, 87, 0.808);
+    height: 270px;
+    width: 200px;
+
+    color:  rgb(255, 255, 255);
+}
+.book2{
+    border: solid 0px white;
+    background-color:  rgba(87, 87, 87, 0.808);
+    height: 270px;
+    width: 200px;
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+}
+.book3{
+    border: solid 0px white;
+    background-color:  rgba(87, 87, 87, 0.808);
+    height: 270px;
+    width: 200px;
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+}
+.book4{
+    border: solid 0px white;
+    background-color:  rgba(87, 87, 87, 0.808);
+    height: 270px;
+    width: 200px;
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+}
+.book5{
+    border: solid 0px white;
+    background-color:  rgba(87, 87, 87, 0.808);
+    height: 270px;
+    width: 200px;
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+}
+.book6{
+    border: solid 0px white;
+    background-color:  rgba(87, 87, 87, 0.808);
+    height: 270px;
+    width: 200px;
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+}
+
+.books {list-style: none;}
+
+.book1:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book2:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book3:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book4:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book5:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book6:hover{background-color: rgba(112, 179, 255, 0.774);}
