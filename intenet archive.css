@@ -5,7 +5,6 @@ nav{ background-color: rgb(0, 0, 0);
     font-size: 24px;
  display: flex;
  align-items: center;
- justify-content: right;
  font-family: 'Amiri', serif;
  font-weight:lighter;
  letter-spacing: 1px;
@@ -36,7 +35,6 @@ font-size: 16px;}
     float: left;
     justify-content: space-between;
     width: 100%;
-    height: 100%;
 }
 
 .p1{
@@ -98,6 +96,7 @@ height: 100%;}
 
 .nn3{
     border: solid 0px rgb(255, 255, 255);
+    border-radius: 10px;
     font-size: 30px;
     font-weight: 100;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -111,6 +110,7 @@ height: 100%;}
     padding: 5px;
     box-align: center;
 }
+.srch{border: solid 1px #000000; border-radius: 24px;}
 
 .nav4{background-color: rgb(255, 255, 255);
     color: black;
@@ -140,12 +140,15 @@ height: 100%;}
 
 .more{text-decoration: none; color: rgb(29, 29, 250);}
 .more:hover{text-decoration: underline;}
-.nserch{width: 350px;}
+.nserch{width: 350px; border: solid 1px rgb(0, 0, 0) ; border-radius: 24px;}
 .ns{text-decoration: none; color: rgb(29, 29, 250); font-size: 12px;}
 .ns:hover{text-decoration: underline;}
 h1{font-size: 27px;
     font-family:sans-serif;
 font-weight: 100;}
+.go{background-color: black; border:  solid 0px rgb(255, 255, 255);
+border-radius: 24px;
+color: white;}
 
 .img{height: 50px;}
 
@@ -180,9 +183,9 @@ font-family: sans-serif;}
     background-color:  rgba(87, 87, 87, 0.808);
     height: 270px;
     width: 200px;
-
     color:  rgb(255, 255, 255);
 }
+.book1 a{position: relative; top: 150px;}
 .book2{
     border: solid 0px white;
     background-color:  rgba(87, 87, 87, 0.808);
@@ -191,6 +194,7 @@ font-family: sans-serif;}
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
+.book2 a{position: relative; top: 150px;}
 .book3{
     border: solid 0px white;
     background-color:  rgba(87, 87, 87, 0.808);
@@ -199,6 +203,7 @@ font-family: sans-serif;}
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
+.book3 a{position: relative; top: 150px;}
 .book4{
     border: solid 0px white;
     background-color:  rgba(87, 87, 87, 0.808);
@@ -207,6 +212,7 @@ font-family: sans-serif;}
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
+.book4 a{position: relative; top: 150px;}
 .book5{
     border: solid 0px white;
     background-color:  rgba(87, 87, 87, 0.808);
@@ -215,6 +221,7 @@ font-family: sans-serif;}
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
+.book5 a{position: relative; top: 150px;}
 .book6{
     border: solid 0px white;
     background-color:  rgba(87, 87, 87, 0.808);
@@ -223,7 +230,7 @@ font-family: sans-serif;}
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
-
+.book6 a{position: relative; top: 150px;}
 .books {list-style: none;}
 
 .book1:hover{background-color: rgba(112, 179, 255, 0.774);}
