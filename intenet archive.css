@@ -5,36 +5,40 @@ nav{ background-color: rgb(0, 0, 0);
     font-size: 24px;
  display: flex;
  align-items: center;
- font-family: 'Amiri', serif;
- font-weight:lighter;
  letter-spacing: 1px;
- padding: 8px;}
+ padding: 6px;}
 
 .links{
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 25%;
   font-family:sans-serif;
 font-size: 16px;}
 
-.nav,.links a{
+.links a{
     color: rgba(219, 219, 219, 0.89);
     text-decoration:none;
     font-size: 14px;
 }
 
-.nav,.links a:hover{color: white;}
-.nav,.links li{
+.links a:hover{color: white;}
+.links li{
     list-style: none;
 }
 
 .log{
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    float: left;
-    justify-content: space-between;
-    width: 100%;
+    width: 12%;
+    list-style: none;
+    font-family:sans-serif;
+    font-size: 16px;
+}
+.log a{
+    color: rgba(219, 219, 219, 0.89);
+    text-decoration:none;
+    font-size: 14px;
+    padding-left: 0; 
 }
 
 .p1{
@@ -169,73 +173,86 @@ color: white;}
 
 .books{display: flex;
 justify-content: space-around;
-width: 55%;
+width: 54%;
 color: white;
 font-weight:lighter;
 letter-spacing: 1px;
-padding: 5px;}
+}
 
 .books a{text-decoration: none; color: white;
 font-family: sans-serif;}
 
 .book1{
     border: solid 0px white;
+    border-radius: 4px;
     background-color:  rgba(87, 87, 87, 0.808);
-    height: 270px;
-    width: 200px;
+    height: 260px;
+    width: 180px;
     color:  rgb(255, 255, 255);
 }
-.book1 a{position: relative; top: 150px;}
+.pn{border-radius: 100px; height: 100px; padding: 20px 20px 20px 20px;}
+.book1 a{position: relative; top: 180px;}
 .book2{
     border: solid 0px white;
+    border-radius: 4px;
     background-color:  rgba(87, 87, 87, 0.808);
-    height: 270px;
-    width: 200px;
+    height: 260px;
+    width: 190px;
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
-.book2 a{position: relative; top: 150px;}
+.book2 a{position: relative; top: 180px;}
 .book3{
     border: solid 0px white;
+    border-radius: 4px;
     background-color:  rgba(87, 87, 87, 0.808);
-    height: 270px;
-    width: 200px;
+    height: 260px;
+    width: 190px;
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
-.book3 a{position: relative; top: 150px;}
+.book3 a{position: relative; top: 180px;}
 .book4{
     border: solid 0px white;
+    border-radius: 4px;
     background-color:  rgba(87, 87, 87, 0.808);
-    height: 270px;
-    width: 200px;
+    height: 260px;
+    width: 190px;
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
-.book4 a{position: relative; top: 150px;}
+.book4 a{position: relative; top: 180px;}
 .book5{
     border: solid 0px white;
+    border-radius: 4px;
     background-color:  rgba(87, 87, 87, 0.808);
-    height: 270px;
-    width: 200px;
+    height: 260px;
+    width: 190px;
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
-.book5 a{position: relative; top: 150px;}
+.book5 a{position: relative; top: 180px;}
 .book6{
     border: solid 0px white;
+    border-radius: 4px;
     background-color:  rgba(87, 87, 87, 0.808);
-    height: 270px;
-    width: 200px;
+    height: 260px;
+    width: 190px;
     text-decoration: none;
     color:  rgb(255, 255, 255);
 }
-.book6 a{position: relative; top: 150px;}
+.book6 a{position: relative; top: 180px;}
 .books {list-style: none;}
 
 .book1:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book1 a:hover{text-decoration: underline;}
 .book2:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book2 a:hover{text-decoration: underline;}
 .book3:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book3 a:hover{text-decoration: underline;}
 .book4:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book4 a:hover{text-decoration: underline;}
 .book5:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book5 a:hover{text-decoration: underline;}
 .book6:hover{background-color: rgba(112, 179, 255, 0.774);}
+.book6 a:hover{text-decoration: underline;}
